@@ -5,9 +5,9 @@ import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:http/http.dart' as http;
 
 void main() => runApp(MaterialApp(
-  title: "Weather App",
-  home: Home(),
-));
+      title: "Bright Digital  Weather App",
+      home: Home(),
+    ));
 
 class Home extends StatefulWidget {
   @override
@@ -124,4 +124,3 @@ class _HomeState extends State<Home> {
     );
   }
 }
-
